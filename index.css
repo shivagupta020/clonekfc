@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+.logo{
+    align-items: center;
+    margin: 0px 50px;
+    font-weight: bold;
+    
+}
+.logo img{
+    margin: 0px 10px;
+}
+.logo a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 8px;
+    color: black;
+
+}
+
+.signin{
+    display: flex;
+    margin: 0px 60px;
+    font-size: 8px;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.signin img{
+    margin: 0px 5px;
+}
+.signin a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.black{
+    background-color: rgba(0, 0, 0, 0.822);
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.black p{
+    color: white;
+    margin: 0px 10px;
+    font-size: 8px;
+    font-weight: bold;
+   
+    
+}
+button{
+   height: 25px;
+   width: 90px;
+   padding: 5px;
+   font-size: 10px;
+   border-radius: 15px;
+   border: none;
+   background-color: red;
+   color: white;
+}
+
+.heroimage{
+    background-image: url(https://images.ctfassets.net/wtodlh47qxpt/3rG3DVKuArGcVVWvMJL0vL/6028fc17975a8c862c86fd67c0e54de5/web_1440x396px.jpg?w=1440&fit=fill&fm=webp);
+    height: 60vh;
+    background-size: cover;
+    
+}
+
+.catagory{
+      padding: 50px;  
+      
+}
+.img1{
+    height: 40vh;
+    background-color: whitesmoke;
+    margin: 0px 10px;
+
+}
+
+.content1{
+  display: flex;
+  padding: 10px;
+  
+ 
+}
+
+.content1 p{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.content1 p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.834);
+    height: 80vh;
+    font-size: 8px;
+    
+}
+.content{
+    display: flex;
+    
+    justify-content: space-around;
+    
+    color: white;
+    padding: 40px;
+    padding-top: 130px;
+    
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+.down p{
+  color: white;
+  justify-content: center;
+  margin-left: 260px;
+}
